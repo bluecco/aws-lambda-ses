@@ -1,0 +1,15 @@
+{
+  "name": "savemail",
+  "version": "1.0.0",
+  "description": "Retrieve the mail from the S3 bucket and call a ws",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alessandro Colleoni",
+  "license": "ISC",
+  "dependencies": {
+    "mailparser": "^2.0.5",
+    "request": "^2.81.0"
+  }
+}
