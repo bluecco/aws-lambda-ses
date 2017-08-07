@@ -44,6 +44,9 @@ exports.handler = (event, context, callback) => {
                  body: toSave,
                  json:true
             }, function(error, response, body){
+               if (error) {
+                 console.log(error)
+               }
                callback(null, null)
             });
 
